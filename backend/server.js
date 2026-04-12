@@ -6,6 +6,19 @@ const playersRouter = require('./routes/players');
 const gamesRouter = require('./routes/games');
 const { router: authRouter } = require('./routes/auth');
 
+
+// Import models (automatic loading)
+require('./models/User');
+require('./models/Team');
+require('./models/Player');
+require('./models/Game');
+require('./models/Coach');
+require('./models/Stadium');
+require('./models/Season');
+require('./models/Contract');
+require('./models/Injury');
+require('./models/PlayerGameStat');
+
 const app = express();
 
 app.use(cors());
