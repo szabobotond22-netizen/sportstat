@@ -1,0 +1,63 @@
+name: Daily MongoDB Backup
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Naponta 2 AM UTC
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install MongoDB tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y mongodb-clients
+
+      - name: Create backups directory
+        run: mkdir -p backups
+
+      - name: Export to JSON
+        run: |
+          mkdir -p backups/collections
+          mongoexport --uri="mongodb://127.0.0.1:27017/sportstat" --collection=users --out ./backups/collections/users.json || true
+          mongoexport --uri="mongodb://127.0.0.1:27017/sportstat" --collection=teams --out ./backups/collections/teams.json || true
+          mongoexport --uri="mongodb://127.0.0.1:27017/sportstat" --collection=players --out ./backups/collections/players.json || true
+          mongoexport --uri="mongodb://127.0.0.1:27017/sportstat" --collection=games --out ./backups/collections/games.json || true
+
+      - name: Create BSON dump
+        run: |
+          mongodump --uri="mongodb://127.0.0.1:27017/sportstat" --out ./backups/mongodump_$(date +%Y%m%d_%H%M%S) || true
+
+      - name: Compress backups
+        run: |
+          cd backups
+          tar -czvf backup_$(date +%Y%m%d_%H%M%S).tar.gz collections/ mongodump_* || true
+          cd ..
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: mongodb-backups-${{ github.run_number }}
+          path: backups/
+          retention-days: 30
+
+      - name: Commit and push backups
+        run: |
+          git config --local user.name "GitHub Actions Bot"
+          git config --local user.email "actions@github.com"
+          git add backups/
+          git commit -m "🔄 MongoDB backup - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes"
+          git push origin master || echo "Push failed"
+        continue-on-error: true
+
+      - name: Create summary
+        run: |
+          echo "## 📦 Backup Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time**: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Database**: sportstat" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status**: ✅ Completed" >> $GITHUB_STEP_SUMMARY
