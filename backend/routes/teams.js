@@ -66,7 +66,7 @@ router.delete('/:id', async (req, res) => {
     const team = await Team.findById(req.params.id);
     if (!team) return res.status(404).json({ message: 'Team not found' });
 
-    await team.remove();
+    await team.deleteOne();
     res.json({ message: 'Team deleted' });
   } catch (err) {
     res.status(500).json({ message: err.message });
