@@ -64,8 +64,10 @@ router.patch('/:id', async (req, res) => {
     if (req.body.homeTeam) game.homeTeam = req.body.homeTeam;
     if (req.body.awayTeam) game.awayTeam = req.body.awayTeam;
     if (req.body.date) game.date = req.body.date;
-    if (req.body.venue) game.venue = req.body.venue;
-    if (req.body.score) game.score = req.body.score;
+    if (req.body.stadium) game.stadium = req.body.stadium;
+    if (req.body.referee) game.referee = req.body.referee;
+    if (req.body.homeTeamGoals !== undefined) game.homeTeamGoals = req.body.homeTeamGoals;
+    if (req.body.awayTeamGoals !== undefined) game.awayTeamGoals = req.body.awayTeamGoals;
     if (req.body.status) game.status = req.body.status;
     if (req.body.sport) game.sport = req.body.sport;
 
@@ -82,7 +84,7 @@ router.delete('/:id', async (req, res) => {
     const game = await Game.findById(req.params.id);
     if (!game) return res.status(404).json({ message: 'Game not found' });
 
-    await game.remove();
+    await game.deleteOne();
     res.json({ message: 'Game deleted' });
   } catch (err) {
     res.status(500).json({ message: err.message });

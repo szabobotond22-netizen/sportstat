@@ -4,6 +4,9 @@ const mongoose = require('mongoose');
 const teamsRouter = require('./routes/teams');
 const playersRouter = require('./routes/players');
 const gamesRouter = require('./routes/games');
+const coachesRouter = require('./routes/coaches');
+const stadiumsRouter = require('./routes/stadiums');
+const statsRouter = require('./routes/stats');
 const { router: authRouter } = require('./routes/auth');
 
 
@@ -36,6 +39,9 @@ mongoose.connect(mongoUri, {
 app.use('/api/teams', teamsRouter);
 app.use('/api/players', playersRouter);
 app.use('/api/games', gamesRouter);
+app.use('/api/coaches', coachesRouter);
+app.use('/api/stadiums', stadiumsRouter);
+app.use('/api/stats', statsRouter);
 app.use('/api/auth', authRouter);
 
 app.get('/', (req, res) => res.send('Hello from backend'));

@@ -88,7 +88,7 @@ router.delete('/:id', async (req, res) => {
     const player = await Player.findById(req.params.id);
     if (!player) return res.status(404).json({ message: 'Player not found' });
 
-    await player.remove();
+    await player.deleteOne();
     res.json({ message: 'Player deleted' });
   } catch (err) {
     res.status(500).json({ message: err.message });
