@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { apiUrl } from '../api';
 
 const TeamResults = ({ token }) => {
   const { id } = useParams();
@@ -13,12 +14,12 @@ const TeamResults = ({ token }) => {
 
   const fetchTeamResults = async () => {
     try {
-      const teamResponse = await fetch(`http://localhost:5000/api/teams/${id}`);
+      const teamResponse = await fetch(apiUrl(`/api/teams/${id}`));
       if (teamResponse.ok) {
         setTeam(await teamResponse.json());
       }
 
-      const gamesResponse = await fetch(`http://localhost:5000/api/games?teamId=${id}`);
+      const gamesResponse = await fetch(apiUrl(`/api/games?teamId=${id}`));
       if (gamesResponse.ok) {
         const data = await gamesResponse.json();
         setResults(data.sort((a, b) => new Date(b.date) - new Date(a.date)));

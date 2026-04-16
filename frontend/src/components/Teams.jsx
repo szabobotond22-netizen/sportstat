@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { apiUrl } from '../api';
 
 const Teams = ({ token }) => {
   const [teams, setTeams] = useState([]);
@@ -15,7 +16,7 @@ const Teams = ({ token }) => {
 
   const fetchTeams = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/teams');
+      const response = await fetch(apiUrl('/api/teams'));
       if (response.ok) {
         const data = await response.json();
         setTeams(data);

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { apiUrl } from '../api';
 
 const Results = ({ token }) => {
   const [results, setResults] = useState([]);
@@ -11,7 +12,7 @@ const Results = ({ token }) => {
 
   const fetchResults = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/games');
+      const response = await fetch(apiUrl('/api/games'));
       if (response.ok) {
         const data = await response.json();
         setResults(data.sort((a, b) => new Date(b.date) - new Date(a.date)));

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { apiUrl } from '../api';
 
 const Players = ({ token }) => {
   const [players, setPlayers] = useState([]);
@@ -15,7 +16,7 @@ const Players = ({ token }) => {
 
   const fetchPlayers = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/players');
+      const response = await fetch(apiUrl('/api/players'));
       if (response.ok) {
         const data = await response.json();
         setPlayers(data);

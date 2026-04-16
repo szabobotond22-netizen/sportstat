@@ -10,6 +10,7 @@ import Auth from './components/Auth';
 import Profile from './components/Profile';
 import TeamResults from './components/TeamResults';
 import TeamPlayers from './components/TeamPlayers';
+import { apiUrl } from './api';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -23,7 +24,7 @@ function App() {
 
   const fetchUserProfile = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/auth/profile', {
+      const response = await fetch(apiUrl('/api/auth/profile'), {
         headers: {
           'Authorization': `Bearer ${token}`
         }
