@@ -4,11 +4,7 @@ const seasonSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
-<<<<<<< HEAD
     unique: true,
-    trim: true
-  },
-=======
     trim: true
   },
   sport: {
@@ -16,7 +12,6 @@ const seasonSchema = new mongoose.Schema({
     required: true,
     enum: ['football', 'basketball', 'tennis', 'other']
   },
->>>>>>> kovi/copilot/update-database-code
   startDate: {
     type: Date,
     required: true
@@ -25,7 +20,6 @@ const seasonSchema = new mongoose.Schema({
     type: Date,
     required: true
   },
-<<<<<<< HEAD
   league: {
     type: String,
     required: true,
@@ -43,22 +37,18 @@ const seasonSchema = new mongoose.Schema({
   totalMatches: {
     type: Number,
     default: 30
-=======
+  },
   isActive: {
     type: Boolean,
     default: false
->>>>>>> kovi/copilot/update-database-code
   },
   createdAt: {
     type: Date,
     default: Date.now
-<<<<<<< HEAD
   },
   updatedAt: {
     type: Date,
     default: Date.now
-=======
->>>>>>> kovi/copilot/update-database-code
   }
 });
 
