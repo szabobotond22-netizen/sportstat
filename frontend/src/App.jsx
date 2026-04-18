@@ -10,6 +10,10 @@ import Auth from './components/Auth';
 import Profile from './components/Profile';
 import TeamResults from './components/TeamResults';
 import TeamPlayers from './components/TeamPlayers';
+import TeamStats from './components/TeamStats';
+import Injuries from './components/Injuries';
+import Coaches from './components/Coaches';
+import Stadiums from './components/Stadiums';
 import { apiUrl } from './api';
 
 function App() {
@@ -61,10 +65,14 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/teams" element={<Teams token={token} />} />
+            <Route path="/teams/:id/stats" element={<TeamStats token={token} />} />
             <Route path="/teams/:id/players" element={<TeamPlayers token={token} />} />
             <Route path="/teams/:id/results" element={<TeamResults token={token} />} />
             <Route path="/players" element={<Players token={token} />} />
             <Route path="/results" element={<Results token={token} />} />
+            <Route path="/injuries" element={<Injuries token={token} />} />
+            <Route path="/coaches" element={<Coaches token={token} />} />
+            <Route path="/stadiums" element={<Stadiums token={token} />} />
             <Route path="/auth" element={<Auth onLogin={handleLogin} />} />
             <Route path="/profile" element={<Profile user={user} token={token} />} />
           </Routes>

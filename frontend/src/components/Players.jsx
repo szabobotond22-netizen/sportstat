@@ -4,11 +4,13 @@ import { apiUrl } from '../api';
 const Players = ({ token }) => {
   const [players, setPlayers] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [injuriesByPlayer, setInjuriesByPlayer] = useState({});
   const [favorites, setFavorites] = useState(() => {
     const saved = localStorage.getItem('favoritePlayers');
     return saved ? JSON.parse(saved) : [];
   });
   const [showStats, setShowStats] = useState({});
+  const [filter, setFilter] = useState('allPlayers');
 
   useEffect(() => {
     fetchPlayers();
@@ -20,6 +22,26 @@ const Players = ({ token }) => {
       if (response.ok) {
         const data = await response.json();
         setPlayers(data);
+
+        const injuriesResponse = await fetch(apiUrl('/api/injuries?activeOnly=true'));
+        if (injuriesResponse.ok) {
+          const injuries = await injuriesResponse.json();
+          const mapped = injuries.reduce((acc, injury) => {
+            const playerId = injury.player?._id;
+            if (!playerId) {
+              return acc;
+            }
+
+            if (!acc[playerId]) {
+              acc[playerId] = [];
+            }
+
+            acc[playerId].push(injury);
+            return acc;
+          }, {});
+
+          setInjuriesByPlayer(mapped);
+        }
       }
     } catch (error) {
       console.error('Error fetching players:', error);
@@ -54,10 +76,26 @@ const Players = ({ token }) => {
       {/* Kedvenc játékosok szűrő */}
       <div className="mb-4">
         <div className="btn-group" role="group">
-          <input type="radio" className="btn-check" name="playerFilter" id="allPlayers" autoComplete="off" defaultChecked />
+          <input
+            type="radio"
+            className="btn-check"
+            name="playerFilter"
+            id="allPlayers"
+            autoComplete="off"
+            checked={filter === 'allPlayers'}
+            onChange={() => setFilter('allPlayers')}
+          />
           <label className="btn btn-outline-primary" htmlFor="allPlayers">Összes játékos</label>
 
-          <input type="radio" className="btn-check" name="playerFilter" id="favoritePlayers" autoComplete="off" />
+          <input
+            type="radio"
+            className="btn-check"
+            name="playerFilter"
+            id="favoritePlayers"
+            autoComplete="off"
+            checked={filter === 'favoritePlayers'}
+            onChange={() => setFilter('favoritePlayers')}
+          />
           <label className="btn btn-outline-primary" htmlFor="favoritePlayers">
             Kedvenceim ({favorites.length})
           </label>
@@ -67,8 +105,7 @@ const Players = ({ token }) => {
       <div className="row">
         {players
           .filter(player => {
-            const filterType = document.querySelector('input[name="playerFilter"]:checked')?.id;
-            if (filterType === 'favoritePlayers') {
+            if (filter === 'favoritePlayers') {
               return favorites.includes(player._id);
             }
             return true;
@@ -87,7 +124,7 @@ const Players = ({ token }) => {
                       onClick={() => toggleFavorite(player._id)}
                       title={favorites.includes(player._id) ? 'Eltávolítás a kedvencekből' : 'Hozzáadás a kedvencekhez'}
                     >
-                      {favorites.includes(player._id) ? '★' : '☆'}
+                      {favorites.includes(player._id) ? 'Mentve' : 'Kedvenc'}
                     </button>
                   </div>
                   <p className="card-text">
@@ -97,40 +134,51 @@ const Players = ({ token }) => {
                     <strong>Nemzetiség:</strong> {player.nationality}
                   </p>
 
+                  {!!injuriesByPlayer[player._id]?.length && (
+                    <div className="alert alert-warning py-2 px-3 mb-2">
+                      <small>
+                        <strong>Sérülés:</strong> {injuriesByPlayer[player._id][0].injuryType}
+                        {injuriesByPlayer[player._id][0].expectedReturn && (
+                          <>
+                            <br />
+                            <strong>Várható visszatérés:</strong>{' '}
+                            {new Date(injuriesByPlayer[player._id][0].expectedReturn).toLocaleDateString('hu-HU')}
+                          </>
+                        )}
+                      </small>
+                    </div>
+                  )}
+
                   {/* Részletes statisztikák */}
                   <div className="mt-3">
                     <button
-                      className="btn btn-outline-info btn-sm me-2"
+                      className={`btn btn-sm me-2 stats-toggle ${showStats[player._id] ? 'stats-toggle-open' : 'btn-outline-info'}`}
                       onClick={() => toggleStats(player._id)}
                     >
-                      {showStats[player._id] ? '📊 Statisztikák elrejtése' : '📊 Teljes statisztikák'}
+                      {showStats[player._id] ? 'Statisztikák elrejtése' : 'Részletes statisztikák'}
                     </button>
                   </div>
 
                   {showStats[player._id] && (
-                    <div className="mt-3 p-3 bg-light rounded">
-                      <h6>Teljes statisztikák:</h6>
-                      <div className="row">
+                    <div className="mt-3 stats-panel">
+                      <h6 className="stats-title">Teljes statisztikák</h6>
+                      <div className="row g-2">
                         <div className="col-6">
-                          <small>
-                            <strong>Mérkőzések:</strong> {player.stats.gamesPlayed}<br />
-                            <strong>Gólok:</strong> {player.stats.goals}<br />
-                            <strong>Asszisztok:</strong> {player.stats.assists}<br />
-                            <strong>Pontok:</strong> {player.stats.points}<br />
-                            <strong>Faultok:</strong> {player.stats.faults}<br />
-                            <strong>Sárga lapok:</strong> {player.stats.yellowCards}<br />
-                            <strong>Piros lapok:</strong> {player.stats.redCards}
-                          </small>
+                          <div className="stat-item"><span>Mérkőzések</span><strong>{player.stats.gamesPlayed}</strong></div>
+                          <div className="stat-item"><span>Gólok</span><strong>{player.stats.goals}</strong></div>
+                          <div className="stat-item"><span>Asszisztok</span><strong>{player.stats.assists}</strong></div>
+                          <div className="stat-item"><span>Pontok</span><strong>{player.stats.points}</strong></div>
+                          <div className="stat-item"><span>Faultok</span><strong>{player.stats.faults}</strong></div>
+                          <div className="stat-item"><span>Sárga lapok</span><strong>{player.stats.yellowCards}</strong></div>
+                          <div className="stat-item"><span>Piros lapok</span><strong>{player.stats.redCards}</strong></div>
                         </div>
                         <div className="col-6">
-                          <small>
-                            <strong>Passzok:</strong> {player.stats.passes}<br />
-                            <strong>Akciók:</strong> {player.stats.actions}<br />
-                            <strong>Szerelések:</strong> {player.stats.tackles}<br />
-                            {player.stats.saves > 0 && <><strong>Védések:</strong> {player.stats.saves}<br /></>}
-                            <strong>Játszott percek:</strong> {player.stats.minutesPlayed}<br />
-                            <strong>Értékelés:</strong> {player.stats.rating}/10
-                          </small>
+                          <div className="stat-item"><span>Passzok</span><strong>{player.stats.passes}</strong></div>
+                          <div className="stat-item"><span>Akciók</span><strong>{player.stats.actions}</strong></div>
+                          <div className="stat-item"><span>Szerelések</span><strong>{player.stats.tackles}</strong></div>
+                          {player.stats.saves > 0 && <div className="stat-item"><span>Védések</span><strong>{player.stats.saves}</strong></div>}
+                          <div className="stat-item"><span>Játszott percek</span><strong>{player.stats.minutesPlayed}</strong></div>
+                          <div className="stat-item"><span>Értékelés</span><strong>{player.stats.rating}/10</strong></div>
                         </div>
                       </div>
                     </div>

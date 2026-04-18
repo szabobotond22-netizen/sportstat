@@ -95,9 +95,34 @@ POST /api/auth/login
 
 ### Authentication
 - `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - Login user
+- `POST /api/auth/login` - Login step 1 (email + password, sends OTP code by email)
+- `POST /api/auth/verify-login` - Login step 2 (email + OTP code, returns JWT)
+- `POST /api/auth/forgot-password` - Send password reset code by email
+- `POST /api/auth/reset-password` - Reset password with email + code + new password
 - `GET /api/auth/profile` - Get current user profile (requires auth)
 - `PATCH /api/auth/profile` - Update user profile (requires auth)
+
+### SMTP Configuration (Required for OTP and password reset emails)
+
+Create a `backend/.env` file (you can copy from `backend/.env.example`) and set:
+
+- `SMTP_HOST`
+- `SMTP_PORT` (e.g. `587`)
+- `SMTP_SECURE` (`true` for TLS/465, otherwise `false`)
+- `SMTP_USER`
+- `SMTP_PASS`
+- `SMTP_FROM` (optional, defaults to `SMTP_USER`)
+
+Example:
+
+```bash
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=you@example.com
+SMTP_PASS=your_app_password
+SMTP_FROM=SportStat <you@example.com>
+```
 
 ### Teams
 - `GET /api/teams` - Get all teams

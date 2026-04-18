@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
@@ -7,6 +9,7 @@ const gamesRouter = require('./routes/games');
 const coachesRouter = require('./routes/coaches');
 const stadiumsRouter = require('./routes/stadiums');
 const statsRouter = require('./routes/stats');
+const injuriesRouter = require('./routes/injuries');
 const { router: authRouter } = require('./routes/auth');
 
 
@@ -42,6 +45,7 @@ app.use('/api/games', gamesRouter);
 app.use('/api/coaches', coachesRouter);
 app.use('/api/stadiums', stadiumsRouter);
 app.use('/api/stats', statsRouter);
+app.use('/api/injuries', injuriesRouter);
 app.use('/api/auth', authRouter);
 
 app.get('/', (req, res) => res.send('Hello from backend'));

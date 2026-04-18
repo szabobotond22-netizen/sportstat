@@ -3,10 +3,18 @@ import { Link } from 'react-router-dom';
 
 const Navbar = ({ user, onLogout }) => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          ⚽ SportStat - NB1
+          <span className="d-flex align-items-center gap-2">
+            <span className="brand-mark" aria-hidden="true">
+              <img src="/sportstat-logo.svg" alt="" className="brand-logo" />
+            </span>
+            <span>
+              <span className="brand-main">SportStat</span>
+              <span className="brand-sub">NB1 TRACKER</span>
+            </span>
+          </span>
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>
@@ -21,6 +29,15 @@ const Navbar = ({ user, onLogout }) => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/results">Eredmények</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/injuries">Sérülések</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/coaches">Edzők</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/stadiums">Stadionok</Link>
             </li>
           </ul>
           <ul className="navbar-nav">

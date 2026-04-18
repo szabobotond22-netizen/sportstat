@@ -1,0 +1,938 @@
+[
+  {
+    "slug": "matko-aljosa",
+    "guessed": "Matko Aljosa",
+    "goals": 16,
+    "appearances": 19
+  },
+  {
+    "slug": "lukacs-daniel",
+    "guessed": "Lukacs Daniel",
+    "goals": 15,
+    "appearances": 17
+  },
+  {
+    "slug": "benbouali-nadir",
+    "guessed": "Benbouali Nadir",
+    "goals": 13,
+    "appearances": 17
+  },
+  {
+    "slug": "varga-barnabas",
+    "guessed": "Varga Barnabas",
+    "goals": 10,
+    "appearances": 11
+  },
+  {
+    "slug": "molnar-adin",
+    "guessed": "Molnar Adin",
+    "goals": 9,
+    "appearances": 11
+  },
+  {
+    "slug": "hahn-janos",
+    "guessed": "Hahn Janos",
+    "goals": 9,
+    "appearances": 9
+  },
+  {
+    "slug": "skribek-alen",
+    "guessed": "Skribek Alen",
+    "goals": 8,
+    "appearances": 13
+  },
+  {
+    "slug": "bode-daniel",
+    "guessed": "Bode Daniel",
+    "goals": 8,
+    "appearances": 9
+  },
+  {
+    "slug": "horvath-krisztofer",
+    "guessed": "Horvath Krisztofer",
+    "goals": 7,
+    "appearances": 12
+  },
+  {
+    "slug": "biro-bence",
+    "guessed": "Biro Bence",
+    "goals": 7,
+    "appearances": 9
+  },
+  {
+    "slug": "tijani-muhamed",
+    "guessed": "Tijani Muhamed",
+    "goals": 7,
+    "appearances": 9
+  },
+  {
+    "slug": "joao-victor",
+    "guessed": "Joao Victor",
+    "goals": 7,
+    "appearances": 7
+  },
+  {
+    "slug": "toth-barna",
+    "guessed": "Toth Barna",
+    "goals": 6,
+    "appearances": 9
+  },
+  {
+    "slug": "nagy-zsolt",
+    "guessed": "Nagy Zsolt",
+    "goals": 6,
+    "appearances": 7
+  },
+  {
+    "slug": "szendrei-akos",
+    "guessed": "Szendrei Akos",
+    "goals": 6,
+    "appearances": 7
+  },
+  {
+    "slug": "kvasina-marko",
+    "guessed": "Kvasina Marko",
+    "goals": 6,
+    "appearances": 6
+  },
+  {
+    "slug": "atrok-istvan-zalan",
+    "guessed": "Atrok Istvan Zalan",
+    "goals": 5,
+    "appearances": 7
+  },
+  {
+    "slug": "gyurkits-gergo",
+    "guessed": "Gyurkits Gergo",
+    "goals": 5,
+    "appearances": 7
+  },
+  {
+    "slug": "edomwonyi-bright",
+    "guessed": "Edomwonyi Bright",
+    "goals": 5,
+    "appearances": 6
+  },
+  {
+    "slug": "kerezsi-zalan-mark",
+    "guessed": "Kerezsi Zalan Mark",
+    "goals": 5,
+    "appearances": 5
+  },
+  {
+    "slug": "molnar-rajmund",
+    "guessed": "Molnar Rajmund",
+    "goals": 5,
+    "appearances": 5
+  },
+  {
+    "slug": "kartik-balint",
+    "guessed": "Kartik Balint",
+    "goals": 4,
+    "appearances": 7
+  },
+  {
+    "slug": "cipetic-branimir",
+    "guessed": "Cipetic Branimir",
+    "goals": 4,
+    "appearances": 6
+  },
+  {
+    "slug": "daniel-lima",
+    "guessed": "Daniel Lima",
+    "goals": 4,
+    "appearances": 6
+  },
+  {
+    "slug": "kanichowsky-gavriel",
+    "guessed": "Kanichowsky Gavriel",
+    "goals": 4,
+    "appearances": 6
+  },
+  {
+    "slug": "kiss-bence",
+    "guessed": "Kiss Bence",
+    "goals": 4,
+    "appearances": 6
+  },
+  {
+    "slug": "temesvari-attila",
+    "guessed": "Temesvari Attila",
+    "goals": 4,
+    "appearances": 6
+  },
+  {
+    "slug": "dardai-pal",
+    "guessed": "Dardai Pal",
+    "goals": 4,
+    "appearances": 5
+  },
+  {
+    "slug": "jurek-gabor",
+    "guessed": "Jurek Gabor",
+    "goals": 4,
+    "appearances": 5
+  },
+  {
+    "slug": "klausz-milan",
+    "guessed": "Klausz Milan",
+    "goals": 4,
+    "appearances": 5
+  },
+  {
+    "slug": "ubochioma-meshack",
+    "guessed": "Ubochioma Meshack",
+    "goals": 4,
+    "appearances": 5
+  },
+  {
+    "slug": "windecker-jozsef",
+    "guessed": "Windecker Jozsef",
+    "goals": 4,
+    "appearances": 5
+  },
+  {
+    "slug": "yordanov-tonislav",
+    "guessed": "Yordanov Tonislav",
+    "goals": 4,
+    "appearances": 5
+  },
+  {
+    "slug": "krajcsovics-abel-gyorgy",
+    "guessed": "Krajcsovics Abel Gyorgy",
+    "goals": 4,
+    "appearances": 4
+  },
+  {
+    "slug": "bognar-istvan",
+    "guessed": "Bognar Istvan",
+    "goals": 3,
+    "appearances": 10
+  },
+  {
+    "slug": "maxsuell-alegria",
+    "guessed": "Maxsuell Alegria",
+    "goals": 3,
+    "appearances": 8
+  },
+  {
+    "slug": "nemeth-hunor-vajk",
+    "guessed": "Nemeth Hunor Vajk",
+    "goals": 3,
+    "appearances": 5
+  },
+  {
+    "slug": "polievka-robert",
+    "guessed": "Polievka Robert",
+    "goals": 3,
+    "appearances": 5
+  },
+  {
+    "slug": "tucic-milan",
+    "guessed": "Tucic Milan",
+    "goals": 3,
+    "appearances": 5
+  },
+  {
+    "slug": "calderon-jose",
+    "guessed": "Calderon Jose",
+    "goals": 3,
+    "appearances": 3
+  },
+  {
+    "slug": "mesanovic-jasmin",
+    "guessed": "Mesanovic Jasmin",
+    "goals": 2,
+    "appearances": 7
+  },
+  {
+    "slug": "horvath-kevin",
+    "guessed": "Horvath Kevin",
+    "goals": 2,
+    "appearances": 5
+  },
+  {
+    "slug": "kovacsreti-mark",
+    "guessed": "Kovacsreti Mark",
+    "goals": 2,
+    "appearances": 5
+  },
+  {
+    "slug": "ljujic-matija",
+    "guessed": "Ljujic Matija",
+    "goals": 2,
+    "appearances": 5
+  },
+  {
+    "slug": "croizet-yohan",
+    "guessed": "Croizet Yohan",
+    "goals": 2,
+    "appearances": 4
+  },
+  {
+    "slug": "jurina-marin",
+    "guessed": "Jurina Marin",
+    "goals": 2,
+    "appearances": 4
+  },
+  {
+    "slug": "kovacs-milan",
+    "guessed": "Kovacs Milan",
+    "goals": 2,
+    "appearances": 4
+  },
+  {
+    "slug": "manner-balazs",
+    "guessed": "Manner Balazs",
+    "goals": 2,
+    "appearances": 4
+  },
+  {
+    "slug": "martin-adam",
+    "guessed": "Martin Adam",
+    "goals": 2,
+    "appearances": 3
+  },
+  {
+    "slug": "beridze-giorgi",
+    "guessed": "Beridze Giorgi",
+    "goals": 2,
+    "appearances": 3
+  },
+  {
+    "slug": "golla-wojciech",
+    "guessed": "Golla Wojciech",
+    "goals": 2,
+    "appearances": 3
+  },
+  {
+    "slug": "medeiros-iuri",
+    "guessed": "Medeiros Iuri",
+    "goals": 2,
+    "appearances": 3
+  },
+  {
+    "slug": "molnar-gabor",
+    "guessed": "Molnar Gabor",
+    "goals": 2,
+    "appearances": 3
+  },
+  {
+    "slug": "novothny-soma",
+    "guessed": "Novothny Soma",
+    "goals": 2,
+    "appearances": 3
+  },
+  {
+    "slug": "slogar-martin",
+    "guessed": "Slogar Martin",
+    "goals": 2,
+    "appearances": 3
+  },
+  {
+    "slug": "sos-bence",
+    "guessed": "Sos Bence",
+    "goals": 2,
+    "appearances": 3
+  },
+  {
+    "slug": "benczenleitner-barna",
+    "guessed": "Benczenleitner Barna",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "bese-barnabas",
+    "guessed": "Bese Barnabas",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "chlumecky-martin",
+    "guessed": "Chlumecky Martin",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "evangelou-stefanos",
+    "guessed": "Evangelou Stefanos",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "fameyeh-joel",
+    "guessed": "Fameyeh Joel",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "konyves-norbert",
+    "guessed": "Konyves Norbert",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "lenzser-bence",
+    "guessed": "Lenzser Bence",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "meskhi-michail",
+    "guessed": "Meskhi Michail",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "nagy-krisztian",
+    "guessed": "Nagy Krisztian",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "pishchur-oleksandr",
+    "guessed": "Pishchur Oleksandr",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "racz-laszlo",
+    "guessed": "Racz Laszlo",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "szendrei-norbert",
+    "guessed": "Szendrei Norbert",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "szor-levente",
+    "guessed": "Szor Levente",
+    "goals": 2,
+    "appearances": 2
+  },
+  {
+    "slug": "antonov-nemanja",
+    "guessed": "Antonov Nemanja",
+    "goals": 1,
+    "appearances": 8
+  },
+  {
+    "slug": "kovacs-patrik",
+    "guessed": "Kovacs Patrik",
+    "goals": 1,
+    "appearances": 5
+  },
+  {
+    "slug": "silye-erik",
+    "guessed": "Silye Erik",
+    "goals": 1,
+    "appearances": 5
+  },
+  {
+    "slug": "balogh-balazs",
+    "guessed": "Balogh Balazs",
+    "goals": 1,
+    "appearances": 4
+  },
+  {
+    "slug": "melnyk-bogdan",
+    "guessed": "Melnyk Bogdan",
+    "goals": 1,
+    "appearances": 4
+  },
+  {
+    "slug": "nemeth-krisztian",
+    "guessed": "Nemeth Krisztian",
+    "goals": 1,
+    "appearances": 4
+  },
+  {
+    "slug": "vlijter-gleofilo",
+    "guessed": "Vlijter Gleofilo",
+    "goals": 1,
+    "appearances": 4
+  },
+  {
+    "slug": "brodic-fran",
+    "guessed": "Brodic Fran",
+    "goals": 1,
+    "appearances": 3
+  },
+  {
+    "slug": "dreskovic-meldin",
+    "guessed": "Dreskovic Meldin",
+    "goals": 1,
+    "appearances": 3
+  },
+  {
+    "slug": "favorov-artem",
+    "guessed": "Favorov Artem",
+    "goals": 1,
+    "appearances": 3
+  },
+  {
+    "slug": "horvath-artur",
+    "guessed": "Horvath Artur",
+    "goals": 1,
+    "appearances": 3
+  },
+  {
+    "slug": "kata-mihaly",
+    "guessed": "Kata Mihaly",
+    "goals": 1,
+    "appearances": 3
+  },
+  {
+    "slug": "katona-levente",
+    "guessed": "Katona Levente",
+    "goals": 1,
+    "appearances": 3
+  },
+  {
+    "slug": "majer-milan",
+    "guessed": "Majer Milan",
+    "goals": 1,
+    "appearances": 3
+  },
+  {
+    "slug": "makreckis-cebrails",
+    "guessed": "Makreckis Cebrails",
+    "goals": 1,
+    "appearances": 3
+  },
+  {
+    "slug": "mucsanyi-miron",
+    "guessed": "Mucsanyi Miron",
+    "goals": 1,
+    "appearances": 3
+  },
+  {
+    "slug": "szabo-janos",
+    "guessed": "Szabo Janos",
+    "goals": 1,
+    "appearances": 3
+  },
+  {
+    "slug": "varju-benedek",
+    "guessed": "Varju Benedek",
+    "goals": 1,
+    "appearances": 3
+  },
+  {
+    "slug": "bakti-balazs",
+    "guessed": "Bakti Balazs",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "gera-daniel",
+    "guessed": "Gera Daniel",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "nejc-gradisar",
+    "guessed": "Nejc Gradisar",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "jovicic-aleksandar",
+    "guessed": "Jovicic Aleksandar",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "katona-balint",
+    "guessed": "Katona Balint",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "lacoux-tom",
+    "guessed": "Lacoux Tom",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "magyar-zsolt",
+    "guessed": "Magyar Zsolt",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "makrai-gabor",
+    "guessed": "Makrai Gabor",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "nemeth-andras",
+    "guessed": "Nemeth Andras",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "olah-benjamin",
+    "guessed": "Olah Benjamin",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "papp-kristof",
+    "guessed": "Papp Kristof",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "radkowski-kacper",
+    "guessed": "Radkowski Kacper",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "toth-alex",
+    "guessed": "Toth Alex",
+    "goals": 1,
+    "appearances": 2
+  },
+  {
+    "slug": "amato-fabricio",
+    "guessed": "Amato Fabricio",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "babunski-dorian",
+    "guessed": "Babunski Dorian",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "baranyai-nimrod",
+    "guessed": "Baranyai Nimrod",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "boldor-dejan",
+    "guessed": "Boldor Dejan",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "denes-csanad-vilmos",
+    "guessed": "Denes Csanad Vilmos",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "galambos-janos",
+    "guessed": "Galambos Janos",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "harangi-aiden",
+    "guessed": "Harangi Aiden",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "haroyan-varazdat",
+    "guessed": "Haroyan Varazdat",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "katona-matyas",
+    "guessed": "Katona Matyas",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "kern-martin",
+    "guessed": "Kern Martin",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "major-marcell",
+    "guessed": "Major Marcell",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "matic-bernardo",
+    "guessed": "Matic Bernardo",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "mbock-hiang-a",
+    "guessed": "Mbock Hiang A",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "nunes-joao",
+    "guessed": "Nunes Joao",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "nyiri-vince",
+    "guessed": "Nyiri Vince",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "ouro-samsindin",
+    "guessed": "Ouro Samsindin",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "peraza-joseth",
+    "guessed": "Peraza Joseth",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "popoola-abdulrasaq-ridwan",
+    "guessed": "Popoola Abdulrasaq Ridwan",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "vancas-pozeg-rudi",
+    "guessed": "Vancas Pozeg Rudi",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "pukhtieiev-maksym",
+    "guessed": "Pukhtieiev Maksym",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "tajti-matyas",
+    "guessed": "Tajti Matyas",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "torocsik-peter",
+    "guessed": "Torocsik Peter",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "vecsei-balint",
+    "guessed": "Vecsei Balint",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "victory-akpe",
+    "guessed": "Victory Akpe",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "zeljkovic-adrian",
+    "guessed": "Zeljkovic Adrian",
+    "goals": 1,
+    "appearances": 1
+  },
+  {
+    "slug": "bodnar-gergo",
+    "guessed": "Bodnar Gergo",
+    "goals": 0,
+    "appearances": 4
+  },
+  {
+    "slug": "duarte-laros",
+    "guessed": "Duarte Laros",
+    "goals": 0,
+    "appearances": 4
+  },
+  {
+    "slug": "maceiras-quentin",
+    "guessed": "Maceiras Quentin",
+    "goals": 0,
+    "appearances": 3
+  },
+  {
+    "slug": "papp-csongor",
+    "guessed": "Papp Csongor",
+    "goals": 0,
+    "appearances": 3
+  },
+  {
+    "slug": "lopez-david",
+    "guessed": "Lopez David",
+    "goals": 0,
+    "appearances": 2
+  },
+  {
+    "slug": "plsek-jakub",
+    "guessed": "Plsek Jakub",
+    "goals": 0,
+    "appearances": 2
+  },
+  {
+    "slug": "soisalo-mikael",
+    "guessed": "Soisalo Mikael",
+    "goals": 0,
+    "appearances": 2
+  },
+  {
+    "slug": "soltesz-dominik",
+    "guessed": "Soltesz Dominik",
+    "goals": 0,
+    "appearances": 2
+  },
+  {
+    "slug": "szabo-szilard",
+    "guessed": "Szabo Szilard",
+    "goals": 0,
+    "appearances": 2
+  },
+  {
+    "slug": "zeke-mario",
+    "guessed": "Zeke Mario",
+    "goals": 0,
+    "appearances": 2
+  },
+  {
+    "slug": "ademi-arijan",
+    "guessed": "Ademi Arijan",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "armalas-vilius",
+    "guessed": "Armalas Vilius",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "berecz-zsombor",
+    "guessed": "Berecz Zsombor",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "bitca-stefan",
+    "guessed": "Bitca Stefan",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "duarte-andre",
+    "guessed": "Duarte Andre",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "eleke-blessing",
+    "guessed": "Eleke Blessing",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "ferenczi-janos",
+    "guessed": "Ferenczi Janos",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "fiola-attila",
+    "guessed": "Fiola Attila",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "gilbert-dantaye",
+    "guessed": "Gilbert Dantaye",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "haraszti-zsolt",
+    "guessed": "Haraszti Zsolt",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "eduardovich-arutyunyan",
+    "guessed": "Eduardovich Arutyunyan",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "kinyik-akos",
+    "guessed": "Kinyik Akos",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "kun-oliver",
+    "guessed": "Kun Oliver",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "maier-arne",
+    "guessed": "Maier Arne",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "matanovic-marko",
+    "guessed": "Matanovic Marko",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "nissila-urho",
+    "guessed": "Nissila Urho",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "semel-moshe",
+    "guessed": "Semel Moshe",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "szappanos-peter",
+    "guessed": "Szappanos Peter",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "szoke-gergo",
+    "guessed": "Szoke Gergo",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "varkonyi-bence",
+    "guessed": "Varkonyi Bence",
+    "goals": 0,
+    "appearances": 1
+  },
+  {
+    "slug": "vitalyos-viktor",
+    "guessed": "Vitalyos Viktor",
+    "goals": 0,
+    "appearances": 1
+  }
+]

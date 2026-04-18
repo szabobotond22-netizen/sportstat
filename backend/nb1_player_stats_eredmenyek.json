@@ -1,0 +1,2009 @@
+[
+  {
+    "playerId": "4Agv4nZ4",
+    "playerSlug": "matko-aljosa",
+    "playerNameGuess": "Matko Aljosa",
+    "rank": 1,
+    "goals": 16,
+    "secondaryStat": 0,
+    "appearances": 19
+  },
+  {
+    "playerId": "OY67oAB9",
+    "playerSlug": "lukacs-daniel",
+    "playerNameGuess": "Lukacs Daniel",
+    "rank": 2,
+    "goals": 15,
+    "secondaryStat": 0,
+    "appearances": 17
+  },
+  {
+    "playerId": "KzK1U1bi",
+    "playerSlug": "benbouali-nadir",
+    "playerNameGuess": "Benbouali Nadir",
+    "rank": 3,
+    "goals": 13,
+    "secondaryStat": 0,
+    "appearances": 17
+  },
+  {
+    "playerId": "jmzocqOl",
+    "playerSlug": "barany-donat",
+    "playerNameGuess": "Barany Donat",
+    "rank": 4,
+    "goals": 12,
+    "secondaryStat": 0,
+    "appearances": 12
+  },
+  {
+    "playerId": "Gh7PibQI",
+    "playerSlug": "varga-barnabas",
+    "playerNameGuess": "Varga Barnabas",
+    "rank": 5,
+    "goals": 10,
+    "secondaryStat": 0,
+    "appearances": 11
+  },
+  {
+    "playerId": "lnoA6HjQ",
+    "playerSlug": "acolatse-elton",
+    "playerNameGuess": "Acolatse Elton",
+    "rank": 6,
+    "goals": 9,
+    "secondaryStat": 0,
+    "appearances": 16
+  },
+  {
+    "playerId": "bDZPwkgk",
+    "playerSlug": "gruber-zsombor",
+    "playerNameGuess": "Gruber Zsombor",
+    "rank": 7,
+    "goals": 9,
+    "secondaryStat": 0,
+    "appearances": 13
+  },
+  {
+    "playerId": "hv7A1NgB",
+    "playerSlug": "molnar-adin",
+    "playerNameGuess": "Molnar Adin",
+    "rank": 8,
+    "goals": 9,
+    "secondaryStat": 0,
+    "appearances": 11
+  },
+  {
+    "playerId": "Y1HikDWL",
+    "playerSlug": "hahn-janos",
+    "playerNameGuess": "Hahn Janos",
+    "rank": 9,
+    "goals": 9,
+    "secondaryStat": 0,
+    "appearances": 9
+  },
+  {
+    "playerId": "AsoUjHy9",
+    "playerSlug": "skribek-alen",
+    "playerNameGuess": "Skribek Alen",
+    "rank": 10,
+    "goals": 8,
+    "secondaryStat": 0,
+    "appearances": 13
+  },
+  {
+    "playerId": "OCmsKFUN",
+    "playerSlug": "vitalis-milan",
+    "playerNameGuess": "Vitalis Milan",
+    "rank": 11,
+    "goals": 8,
+    "secondaryStat": 0,
+    "appearances": 12
+  },
+  {
+    "playerId": "M3GyAPjR",
+    "playerSlug": "bode-daniel",
+    "playerNameGuess": "Bode Daniel",
+    "rank": 12,
+    "goals": 8,
+    "secondaryStat": 0,
+    "appearances": 9
+  },
+  {
+    "playerId": "rHtTa12H",
+    "playerSlug": "horvath-krisztofer",
+    "playerNameGuess": "Horvath Krisztofer",
+    "rank": 13,
+    "goals": 7,
+    "secondaryStat": 0,
+    "appearances": 12
+  },
+  {
+    "playerId": "KCYgPSk4",
+    "playerSlug": "biro-bence",
+    "playerNameGuess": "Biro Bence",
+    "rank": 14,
+    "goals": 7,
+    "secondaryStat": 0,
+    "appearances": 9
+  },
+  {
+    "playerId": "0W1OfKSO",
+    "playerSlug": "tijani-muhamed",
+    "playerNameGuess": "Tijani Muhamed",
+    "rank": 14,
+    "goals": 7,
+    "secondaryStat": 0,
+    "appearances": 9
+  },
+  {
+    "playerId": "8YNWFf9K",
+    "playerSlug": "joao-victor",
+    "playerNameGuess": "Joao Victor",
+    "rank": 16,
+    "goals": 7,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "nJiEsZah",
+    "playerSlug": "dzsudzsak-balazs",
+    "playerNameGuess": "Dzsudzsak Balazs",
+    "rank": 17,
+    "goals": 6,
+    "secondaryStat": 0,
+    "appearances": 10
+  },
+  {
+    "playerId": "fko7xFSf",
+    "playerSlug": "gavric-zeljko",
+    "playerNameGuess": "Gavric Zeljko",
+    "rank": 18,
+    "goals": 6,
+    "secondaryStat": 0,
+    "appearances": 9
+  },
+  {
+    "playerId": "QgHcWon2",
+    "playerSlug": "toth-barna",
+    "playerNameGuess": "Toth Barna",
+    "rank": 18,
+    "goals": 6,
+    "secondaryStat": 0,
+    "appearances": 9
+  },
+  {
+    "playerId": "OCtUt4yJ",
+    "playerSlug": "babos-bence",
+    "playerNameGuess": "Babos Bence",
+    "rank": 20,
+    "goals": 6,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "M9WaCEg2",
+    "playerSlug": "nagy-zsolt",
+    "playerNameGuess": "Nagy Zsolt",
+    "rank": 20,
+    "goals": 6,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "CfmEilws",
+    "playerSlug": "szendrei-akos",
+    "playerNameGuess": "Szendrei Akos",
+    "rank": 20,
+    "goals": 6,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "QuYlLvPu",
+    "playerSlug": "kvasina-marko",
+    "playerNameGuess": "Kvasina Marko",
+    "rank": 23,
+    "goals": 6,
+    "secondaryStat": 0,
+    "appearances": 6
+  },
+  {
+    "playerId": "neZTdvpJ",
+    "playerSlug": "atrok-istvan-zalan",
+    "playerNameGuess": "Atrok Istvan Zalan",
+    "rank": 24,
+    "goals": 5,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "QPjVmqlD",
+    "playerSlug": "gyurkits-gergo",
+    "playerNameGuess": "Gyurkits Gergo",
+    "rank": 24,
+    "goals": 5,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "EyaCEdvN",
+    "playerSlug": "colley-lamin",
+    "playerNameGuess": "Colley Lamin",
+    "rank": 26,
+    "goals": 5,
+    "secondaryStat": 0,
+    "appearances": 6
+  },
+  {
+    "playerId": "88FsOHFL",
+    "playerSlug": "edomwonyi-bright",
+    "playerNameGuess": "Edomwonyi Bright",
+    "rank": 26,
+    "goals": 5,
+    "secondaryStat": 0,
+    "appearances": 6
+  },
+  {
+    "playerId": "29Qm3L7A",
+    "playerSlug": "kerezsi-zalan-mark",
+    "playerNameGuess": "Kerezsi Zalan Mark",
+    "rank": 28,
+    "goals": 5,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "xl7mMkyJ",
+    "playerSlug": "kovacevic-franko",
+    "playerNameGuess": "Kovacevic Franko",
+    "rank": 28,
+    "goals": 5,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "vTRTXYbN",
+    "playerSlug": "molnar-rajmund",
+    "playerNameGuess": "Molnar Rajmund",
+    "rank": 28,
+    "goals": 5,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "QXHoBbGa",
+    "playerSlug": "kartik-balint",
+    "playerNameGuess": "Kartik Balint",
+    "rank": 31,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "0IJ2MX8e",
+    "playerSlug": "njie-nfansu",
+    "playerNameGuess": "Njie Nfansu",
+    "rank": 31,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "MD0NG2m6",
+    "playerSlug": "cipetic-branimir",
+    "playerNameGuess": "Cipetic Branimir",
+    "rank": 33,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 6
+  },
+  {
+    "playerId": "G06K533F",
+    "playerSlug": "daniel-lima",
+    "playerNameGuess": "Daniel Lima",
+    "rank": 33,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 6
+  },
+  {
+    "playerId": "QFn2Dh31",
+    "playerSlug": "kanichowsky-gavriel",
+    "playerNameGuess": "Kanichowsky Gavriel",
+    "rank": 33,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 6
+  },
+  {
+    "playerId": "zkduqSCs",
+    "playerSlug": "kiss-bence",
+    "playerNameGuess": "Kiss Bence",
+    "rank": 33,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 6
+  },
+  {
+    "playerId": "zFDAmTep",
+    "playerSlug": "temesvari-attila",
+    "playerNameGuess": "Temesvari Attila",
+    "rank": 33,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 6
+  },
+  {
+    "playerId": "hWXQwRg8",
+    "playerSlug": "dardai-pal",
+    "playerNameGuess": "Dardai Pal",
+    "rank": 38,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "Kpk3tHiO",
+    "playerSlug": "jurek-gabor",
+    "playerNameGuess": "Jurek Gabor",
+    "rank": 38,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "vJuNbfWB",
+    "playerSlug": "klausz-milan",
+    "playerNameGuess": "Klausz Milan",
+    "rank": 38,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "A1XJ36hb",
+    "playerSlug": "schon-szabolcs",
+    "playerNameGuess": "Schon Szabolcs",
+    "rank": 38,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "E7bBHdH1",
+    "playerSlug": "ubochioma-meshack",
+    "playerNameGuess": "Ubochioma Meshack",
+    "rank": 38,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "Sh02mwHr",
+    "playerSlug": "windecker-jozsef",
+    "playerNameGuess": "Windecker Jozsef",
+    "rank": 38,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "EFyrWWs6",
+    "playerSlug": "yordanov-tonislav",
+    "playerNameGuess": "Yordanov Tonislav",
+    "rank": 38,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "84zQcKUC",
+    "playerSlug": "krajcsovics-abel-gyorgy",
+    "playerNameGuess": "Krajcsovics Abel Gyorgy",
+    "rank": 45,
+    "goals": 4,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "MeHPgwNq",
+    "playerSlug": "stefulj-daniel",
+    "playerNameGuess": "Stefulj Daniel",
+    "rank": 46,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 11
+  },
+  {
+    "playerId": "l4aomwm9",
+    "playerSlug": "bognar-istvan",
+    "playerNameGuess": "Bognar Istvan",
+    "rank": 47,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 10
+  },
+  {
+    "playerId": "0M9aT0SK",
+    "playerSlug": "maxsuell-alegria",
+    "playerNameGuess": "Maxsuell Alegria",
+    "rank": 48,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 8
+  },
+  {
+    "playerId": "OANMpDg3",
+    "playerSlug": "bumba-claudiu",
+    "playerNameGuess": "Bumba Claudiu",
+    "rank": 49,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "bapwpxBj",
+    "playerSlug": "gordic-djordje",
+    "playerNameGuess": "Gordic Djordje",
+    "rank": 49,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "QT4x0X60",
+    "playerSlug": "kocsis-dominik",
+    "playerNameGuess": "Kocsis Dominik",
+    "rank": 51,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 6
+  },
+  {
+    "playerId": "08pL59jA",
+    "playerSlug": "nemeth-hunor-vajk",
+    "playerNameGuess": "Nemeth Hunor Vajk",
+    "rank": 52,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "tMHh0Qoi",
+    "playerSlug": "polievka-robert",
+    "playerNameGuess": "Polievka Robert",
+    "rank": 52,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "tj8gzgUk",
+    "playerSlug": "szucs-tamas",
+    "playerNameGuess": "Szucs Tamas",
+    "rank": 52,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "bmVLmYOB",
+    "playerSlug": "tucic-milan",
+    "playerNameGuess": "Tucic Milan",
+    "rank": 52,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "0K8CfONM",
+    "playerSlug": "joseph-lenny",
+    "playerNameGuess": "Joseph Lenny",
+    "rank": 56,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "2mK7cAso",
+    "playerSlug": "levi-jonathan",
+    "playerNameGuess": "Levi Jonathan",
+    "rank": 56,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "00JO1eE1",
+    "playerSlug": "saponjic-ivan",
+    "playerNameGuess": "Saponjic Ivan",
+    "rank": 56,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "8t3vtwdc",
+    "playerSlug": "calderon-jose",
+    "playerNameGuess": "Calderon Jose",
+    "rank": 59,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "ARrBarjj",
+    "playerSlug": "gomez-mariano",
+    "playerNameGuess": "Gomez Mariano",
+    "rank": 59,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "KKmmoFGA",
+    "playerSlug": "huszar-marcell",
+    "playerNameGuess": "Huszar Marcell",
+    "rank": 59,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "IkkH3hSH",
+    "playerSlug": "otvos-bence",
+    "playerNameGuess": "Otvos Bence",
+    "rank": 59,
+    "goals": 3,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "KzR3Hs7m",
+    "playerSlug": "mesanovic-jasmin",
+    "playerNameGuess": "Mesanovic Jasmin",
+    "rank": 63,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "4SLiT74p",
+    "playerSlug": "nagy-barnabas",
+    "playerNameGuess": "Nagy Barnabas",
+    "rank": 63,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "2k0DlQqa",
+    "playerSlug": "anton-paul",
+    "playerNameGuess": "Anton Paul",
+    "rank": 65,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "dpTTXMdU",
+    "playerSlug": "horvath-kevin",
+    "playerNameGuess": "Horvath Kevin",
+    "rank": 65,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "YNffu7M3",
+    "playerSlug": "kovacsreti-mark",
+    "playerNameGuess": "Kovacsreti Mark",
+    "rank": 65,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "dlOOq7g8",
+    "playerSlug": "ljujic-matija",
+    "playerNameGuess": "Ljujic Matija",
+    "rank": 65,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "UVI2vTNF",
+    "playerSlug": "cibla-florian",
+    "playerNameGuess": "Cibla Florian",
+    "rank": 69,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "GhsQxqEB",
+    "playerSlug": "croizet-yohan",
+    "playerNameGuess": "Croizet Yohan",
+    "rank": 69,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "MeRdZHGT",
+    "playerSlug": "guerrero-adrian",
+    "playerNameGuess": "Guerrero Adrian",
+    "rank": 69,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "faCGxu9U",
+    "playerSlug": "jurina-marin",
+    "playerNameGuess": "Jurina Marin",
+    "rank": 69,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "6wCSIHI9",
+    "playerSlug": "kovacs-milan",
+    "playerNameGuess": "Kovacs Milan",
+    "rank": 69,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "pEFQyxC1",
+    "playerSlug": "manner-balazs",
+    "playerNameGuess": "Manner Balazs",
+    "rank": 69,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "jau8E5lb",
+    "playerSlug": "szuhodovszki-soma",
+    "playerNameGuess": "Szuhodovszki Soma",
+    "rank": 69,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "Iqit72gJ",
+    "playerSlug": "yusuf-bamidele",
+    "playerNameGuess": "Yusuf Bamidele",
+    "rank": 69,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "IJIBT6SN",
+    "playerSlug": "martin-adam",
+    "playerNameGuess": "Martin Adam",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "8ng6lNFS",
+    "playerSlug": "banati-kevin",
+    "playerNameGuess": "Banati Kevin",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "Wn47RZMa",
+    "playerSlug": "beridze-giorgi",
+    "playerNameGuess": "Beridze Giorgi",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "bkJqLEMF",
+    "playerSlug": "golla-wojciech",
+    "playerNameGuess": "Golla Wojciech",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "4W09bvlk",
+    "playerSlug": "keita-aboubakar",
+    "playerNameGuess": "Keita Aboubakar",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "YwNMMHp5",
+    "playerSlug": "komaromi-gyorgy",
+    "playerNameGuess": "Komaromi Gyorgy",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "xblMKCRr",
+    "playerSlug": "medeiros-iuri",
+    "playerNameGuess": "Medeiros Iuri",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "CpdSqJK8",
+    "playerSlug": "molnar-gabor",
+    "playerNameGuess": "Molnar Gabor",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "IZWgh9f9",
+    "playerSlug": "novothny-soma",
+    "playerNameGuess": "Novothny Soma",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "M3bAb0Ut",
+    "playerSlug": "peto-milan",
+    "playerNameGuess": "Peto Milan",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "6TbrVJQ6",
+    "playerSlug": "slogar-martin",
+    "playerNameGuess": "Slogar Martin",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "ra5Ua9CG",
+    "playerSlug": "sos-bence",
+    "playerNameGuess": "Sos Bence",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "8pITiHc0",
+    "playerSlug": "szalai-gabor",
+    "playerNameGuess": "Szalai Gabor",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "p0FvaKYA",
+    "playerSlug": "youga-amos",
+    "playerNameGuess": "Youga Amos",
+    "rank": 77,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "WxSktIM2",
+    "playerSlug": "benczenleitner-barna",
+    "playerNameGuess": "Benczenleitner Barna",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "v5PTu4SI",
+    "playerSlug": "bese-barnabas",
+    "playerNameGuess": "Bese Barnabas",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "jT61jate",
+    "playerSlug": "chlumecky-martin",
+    "playerNameGuess": "Chlumecky Martin",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "vgDQPYCi",
+    "playerSlug": "corbu-marius",
+    "playerNameGuess": "Corbu Marius",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "W8aVwg0d",
+    "playerSlug": "csinger-mark",
+    "playerNameGuess": "Csinger Mark",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "S86kdmz4",
+    "playerSlug": "evangelou-stefanos",
+    "playerNameGuess": "Evangelou Stefanos",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "46wZtrxh",
+    "playerSlug": "fameyeh-joel",
+    "playerNameGuess": "Fameyeh Joel",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "KUSS4ynb",
+    "playerSlug": "konyves-norbert",
+    "playerNameGuess": "Konyves Norbert",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "n36JElc4",
+    "playerSlug": "lenzser-bence",
+    "playerNameGuess": "Lenzser Bence",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "vc5uWSDD",
+    "playerSlug": "meskhi-michail",
+    "playerNameGuess": "Meskhi Michail",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "lzsIZ8nN",
+    "playerSlug": "nagy-krisztian",
+    "playerNameGuess": "Nagy Krisztian",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "W4SlXb0n",
+    "playerSlug": "pishchur-oleksandr",
+    "playerNameGuess": "Pishchur Oleksandr",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "jL661B4F",
+    "playerSlug": "racz-laszlo",
+    "playerNameGuess": "Racz Laszlo",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "dWnkomZi",
+    "playerSlug": "szendrei-norbert",
+    "playerNameGuess": "Szendrei Norbert",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "0IWzlbiS",
+    "playerSlug": "szor-levente",
+    "playerNameGuess": "Szor Levente",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "fkLV53jG",
+    "playerSlug": "vallejo-alex",
+    "playerNameGuess": "Vallejo Alex",
+    "rank": 91,
+    "goals": 2,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "SCWIax3H",
+    "playerSlug": "antonov-nemanja",
+    "playerNameGuess": "Antonov Nemanja",
+    "rank": 107,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 8
+  },
+  {
+    "playerId": "ruqQ6m9f",
+    "playerSlug": "abu-fani-mohammad",
+    "playerNameGuess": "Abu Fani Mohammad",
+    "rank": 108,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 7
+  },
+  {
+    "playerId": "2a9TlJ2m",
+    "playerSlug": "kovacs-patrik",
+    "playerNameGuess": "Kovacs Patrik",
+    "rank": 109,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "0n4zer53",
+    "playerSlug": "silye-erik",
+    "playerNameGuess": "Silye Erik",
+    "rank": 109,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 5
+  },
+  {
+    "playerId": "Sx7tKHYt",
+    "playerSlug": "balogh-balazs",
+    "playerNameGuess": "Balogh Balazs",
+    "rank": 111,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "rolhmbSs",
+    "playerSlug": "melnyk-bogdan",
+    "playerNameGuess": "Melnyk Bogdan",
+    "rank": 111,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "C0Rg4BLN",
+    "playerSlug": "nemeth-krisztian",
+    "playerNameGuess": "Nemeth Krisztian",
+    "rank": 111,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "lCliHFsj",
+    "playerSlug": "roguljic-ante",
+    "playerNameGuess": "Roguljic Ante",
+    "rank": 111,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "QL1YICY7",
+    "playerSlug": "vlijter-gleofilo",
+    "playerNameGuess": "Vlijter Gleofilo",
+    "rank": 111,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "KldCd9a9",
+    "playerSlug": "bokros-szilard",
+    "playerNameGuess": "Bokros Szilard",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "0vhjNXc4",
+    "playerSlug": "brodic-fran",
+    "playerNameGuess": "Brodic Fran",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "MwK7FnZ8",
+    "playerSlug": "dreskovic-meldin",
+    "playerNameGuess": "Dreskovic Meldin",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "lUyuocBF",
+    "playerSlug": "favorov-artem",
+    "playerNameGuess": "Favorov Artem",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "UmqDhhFk",
+    "playerSlug": "horvath-artur",
+    "playerNameGuess": "Horvath Artur",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "jFXHNcVb",
+    "playerSlug": "kata-mihaly",
+    "playerNameGuess": "Kata Mihaly",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "Wl04xQLr",
+    "playerSlug": "katona-levente",
+    "playerNameGuess": "Katona Levente",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "QBA1K7HF",
+    "playerSlug": "majer-milan",
+    "playerNameGuess": "Majer Milan",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "GCBhhUk0",
+    "playerSlug": "makreckis-cebrails",
+    "playerNameGuess": "Makreckis Cebrails",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "xYTKWJJk",
+    "playerSlug": "mucsanyi-miron",
+    "playerNameGuess": "Mucsanyi Miron",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "KKbBVmrP",
+    "playerSlug": "sajban-mate",
+    "playerNameGuess": "Sajban Mate",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "UmIdirSa",
+    "playerSlug": "szabo-janos",
+    "playerNameGuess": "Szabo Janos",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "r7wZM8Ci",
+    "playerSlug": "varju-benedek",
+    "playerNameGuess": "Varju Benedek",
+    "rank": 116,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "x8dhVcIN",
+    "playerSlug": "bakti-balazs",
+    "playerNameGuess": "Bakti Balazs",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "K69VZc6I",
+    "playerSlug": "batik-bence",
+    "playerNameGuess": "Batik Bence",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "St95nIXj",
+    "playerSlug": "biro-barnabas",
+    "playerNameGuess": "Biro Barnabas",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "Aku1MfEe",
+    "playerSlug": "cadu",
+    "playerNameGuess": "Cadu",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "06bB7iaC",
+    "playerSlug": "gartenmann-stefan",
+    "playerNameGuess": "Gartenmann Stefan",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "00NnUw96",
+    "playerSlug": "gera-daniel",
+    "playerNameGuess": "Gera Daniel",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "Ovs7iRZn",
+    "playerSlug": "nejc-gradisar",
+    "playerNameGuess": "Nejc Gradisar",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "CzZh1cNo",
+    "playerSlug": "jovicic-aleksandar",
+    "playerNameGuess": "Jovicic Aleksandar",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "IePGfJDs",
+    "playerSlug": "katona-balint",
+    "playerNameGuess": "Katona Balint",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "WdILBka8",
+    "playerSlug": "lacoux-tom",
+    "playerNameGuess": "Lacoux Tom",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "dfpvvdlE",
+    "playerSlug": "magyar-zsolt",
+    "playerNameGuess": "Magyar Zsolt",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "jwnQNZg4",
+    "playerSlug": "makrai-gabor",
+    "playerNameGuess": "Makrai Gabor",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "vqACZfUA",
+    "playerSlug": "nemeth-andras",
+    "playerNameGuess": "Nemeth Andras",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "jHmOlTVI",
+    "playerSlug": "olah-benjamin",
+    "playerNameGuess": "Olah Benjamin",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "EJspiTHG",
+    "playerSlug": "osvath-attila",
+    "playerNameGuess": "Osvath Attila",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "b1rH9Z3i",
+    "playerSlug": "papp-kristof",
+    "playerNameGuess": "Papp Kristof",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "IeKRqVT1",
+    "playerSlug": "radkowski-kacper",
+    "playerNameGuess": "Radkowski Kacper",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "0ICC3s82",
+    "playerSlug": "toma-yuriy-toma-gyorgy",
+    "playerNameGuess": "Toma Yuriy Toma Gyorgy",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "CxaKpCl6",
+    "playerSlug": "toth-alex",
+    "playerNameGuess": "Toth Alex",
+    "rank": 129,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "GrL6rnl0",
+    "playerSlug": "amato-fabricio",
+    "playerNameGuess": "Amato Fabricio",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "EimzbEDI",
+    "playerSlug": "babunski-dorian",
+    "playerNameGuess": "Babunski Dorian",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "r5XoteJs",
+    "playerSlug": "baranyai-nimrod",
+    "playerNameGuess": "Baranyai Nimrod",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "dQzsbP8r",
+    "playerSlug": "benyei-agoston",
+    "playerNameGuess": "Benyei Agoston",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "jNc8T5b3",
+    "playerSlug": "boldor-dejan",
+    "playerNameGuess": "Boldor Dejan",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "6koxE4BU",
+    "playerSlug": "demeter-milan",
+    "playerNameGuess": "Demeter Milan",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "A3mETEfb",
+    "playerSlug": "denes-csanad-vilmos",
+    "playerNameGuess": "Denes Csanad Vilmos",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "zHqYax1M",
+    "playerSlug": "galambos-janos",
+    "playerNameGuess": "Galambos Janos",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "fc8iJYsl",
+    "playerSlug": "harangi-aiden",
+    "playerNameGuess": "Harangi Aiden",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "fLlxswDo",
+    "playerSlug": "haroyan-varazdat",
+    "playerNameGuess": "Haroyan Varazdat",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "nBp8hBsk",
+    "playerSlug": "katona-matyas",
+    "playerNameGuess": "Katona Matyas",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "tEA3GWR6",
+    "playerSlug": "kern-martin",
+    "playerNameGuess": "Kern Martin",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "UZEgeSg5",
+    "playerSlug": "krpic-miljan",
+    "playerNameGuess": "Krpic Miljan",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "bo5LsFl3",
+    "playerSlug": "kulbachuk-vyacheslav",
+    "playerNameGuess": "Kulbachuk Vyacheslav",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "ENk9XIsa",
+    "playerSlug": "kusnyir-erik",
+    "playerNameGuess": "Kusnyir Erik",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "08xq44Xo",
+    "playerSlug": "madarasz-adam",
+    "playerNameGuess": "Madarasz Adam",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "AyZbU1Hl",
+    "playerSlug": "major-marcell",
+    "playerNameGuess": "Major Marcell",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "4dIS9Yio",
+    "playerSlug": "matic-bernardo",
+    "playerNameGuess": "Matic Bernardo",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "GpPG5rD0",
+    "playerSlug": "mbock-hiang-a",
+    "playerNameGuess": "Mbock Hiang A",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "bNYGOj3S",
+    "playerSlug": "mucsanyi-mark",
+    "playerNameGuess": "Mucsanyi Mark",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "0n2F7Vtq",
+    "playerSlug": "nunes-joao",
+    "playerNameGuess": "Nunes Joao",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "GfYtAmvO",
+    "playerSlug": "nyiri-vince",
+    "playerNameGuess": "Nyiri Vince",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "OCCL7ARq",
+    "playerSlug": "ouro-samsindin",
+    "playerNameGuess": "Ouro Samsindin",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "S0JySQRR",
+    "playerSlug": "peraza-joseth",
+    "playerNameGuess": "Peraza Joseth",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "WvFzRBwr",
+    "playerSlug": "pesic-aleksandar",
+    "playerNameGuess": "Pesic Aleksandar",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "IuBYM2X1",
+    "playerSlug": "popoola-abdulrasaq-ridwan",
+    "playerNameGuess": "Popoola Abdulrasaq Ridwan",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "UTlYlwNJ",
+    "playerSlug": "vancas-pozeg-rudi",
+    "playerNameGuess": "Vancas Pozeg Rudi",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "C2KcLu1n",
+    "playerSlug": "pukhtieiev-maksym",
+    "playerNameGuess": "Pukhtieiev Maksym",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "jRyDLGhI",
+    "playerSlug": "szecsi-mark",
+    "playerNameGuess": "Szecsi Mark",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "WlTL875N",
+    "playerSlug": "tajti-matyas",
+    "playerNameGuess": "Tajti Matyas",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "dKhQpyAa",
+    "playerSlug": "tamas-mark",
+    "playerNameGuess": "Tamas Mark",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "QFUeiClA",
+    "playerSlug": "torocsik-peter",
+    "playerNameGuess": "Torocsik Peter",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "OUKW62X7",
+    "playerSlug": "vecsei-balint",
+    "playerNameGuess": "Vecsei Balint",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "CYCcLlg5",
+    "playerSlug": "victory-akpe",
+    "playerNameGuess": "Victory Akpe",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "EeZLf1AA",
+    "playerSlug": "zeljkovic-adrian",
+    "playerNameGuess": "Zeljkovic Adrian",
+    "rank": 148,
+    "goals": 1,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "hhfgLlPA",
+    "playerSlug": "bodnar-gergo",
+    "playerNameGuess": "Bodnar Gergo",
+    "rank": 183,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "8ty2w50k",
+    "playerSlug": "duarte-laros",
+    "playerNameGuess": "Duarte Laros",
+    "rank": 183,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 4
+  },
+  {
+    "playerId": "0twNNd9F",
+    "playerSlug": "maceiras-quentin",
+    "playerNameGuess": "Maceiras Quentin",
+    "rank": 185,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "GA5BnYJg",
+    "playerSlug": "papp-csongor",
+    "playerNameGuess": "Papp Csongor",
+    "rank": 185,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "EDMFR6EF",
+    "playerSlug": "vladoiu-stefan",
+    "playerNameGuess": "Vladoiu Stefan",
+    "rank": 185,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 3
+  },
+  {
+    "playerId": "4MB78NvI",
+    "playerSlug": "keita-naby",
+    "playerNameGuess": "Keita Naby",
+    "rank": 188,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "xf180URn",
+    "playerSlug": "lopez-david",
+    "playerNameGuess": "Lopez David",
+    "rank": 188,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "hCEDSECd",
+    "playerSlug": "plsek-jakub",
+    "playerNameGuess": "Plsek Jakub",
+    "rank": 188,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "WpPllDId",
+    "playerSlug": "soisalo-mikael",
+    "playerNameGuess": "Soisalo Mikael",
+    "rank": 188,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "YX5bbQfd",
+    "playerSlug": "soltesz-dominik",
+    "playerNameGuess": "Soltesz Dominik",
+    "rank": 188,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "xSAehXgC",
+    "playerSlug": "szabo-szilard",
+    "playerNameGuess": "Szabo Szilard",
+    "rank": 188,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "CCa3z0V3",
+    "playerSlug": "toth-rajmund",
+    "playerNameGuess": "Toth Rajmund",
+    "rank": 188,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "dAUFy7sl",
+    "playerSlug": "vajda-botond",
+    "playerNameGuess": "Vajda Botond",
+    "rank": 188,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "Megv7h7m",
+    "playerSlug": "zeke-mario",
+    "playerNameGuess": "Zeke Mario",
+    "rank": 188,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 2
+  },
+  {
+    "playerId": "8lnElLro",
+    "playerSlug": "ademi-arijan",
+    "playerNameGuess": "Ademi Arijan",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "I1NDE8SP",
+    "playerSlug": "armalas-vilius",
+    "playerNameGuess": "Armalas Vilius",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "lEmp062p",
+    "playerSlug": "berecz-zsombor",
+    "playerNameGuess": "Berecz Zsombor",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "EJ5KJwVg",
+    "playerSlug": "bermejo-alex",
+    "playerNameGuess": "Bermejo Alex",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "vmXebVus",
+    "playerSlug": "bitca-stefan",
+    "playerNameGuess": "Bitca Stefan",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "EXjQ7F82",
+    "playerSlug": "cisse-ibrahim",
+    "playerNameGuess": "Cisse Ibrahim",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "bXC6R1S9",
+    "playerSlug": "dacosta-julien",
+    "playerNameGuess": "Dacosta Julien",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "MXUCXmwl",
+    "playerSlug": "duarte-andre",
+    "playerNameGuess": "Duarte Andre",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "61fgvtt9",
+    "playerSlug": "eleke-blessing",
+    "playerNameGuess": "Eleke Blessing",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "ru4Xea2k",
+    "playerSlug": "ferenczi-janos",
+    "playerNameGuess": "Ferenczi Janos",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "p6LG43El",
+    "playerSlug": "fiola-attila",
+    "playerNameGuess": "Fiola Attila",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "4CBR1jXk",
+    "playerSlug": "gilbert-dantaye",
+    "playerNameGuess": "Gilbert Dantaye",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "vBB1J0D0",
+    "playerSlug": "haraszti-zsolt",
+    "playerNameGuess": "Haraszti Zsolt",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "fJuK5lEQ",
+    "playerSlug": "eduardovich-arutyunyan",
+    "playerNameGuess": "Eduardovich Arutyunyan",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "r9pcqpQr",
+    "playerSlug": "kinyik-akos",
+    "playerNameGuess": "Kinyik Akos",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "hO2tVEyR",
+    "playerSlug": "kun-oliver",
+    "playerNameGuess": "Kun Oliver",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "jVumZKI4",
+    "playerSlug": "maier-arne",
+    "playerNameGuess": "Maier Arne",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "CdQ02nND",
+    "playerSlug": "matanovic-marko",
+    "playerNameGuess": "Matanovic Marko",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "4AcSAs9b",
+    "playerSlug": "mejias-josua",
+    "playerNameGuess": "Mejias Josua",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "bw6gHVlT",
+    "playerSlug": "miangue-senna",
+    "playerNameGuess": "Miangue Senna",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "zV502U5P",
+    "playerSlug": "nissila-urho",
+    "playerNameGuess": "Nissila Urho",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "pGVWPvmG",
+    "playerSlug": "o-dowda-callum",
+    "playerNameGuess": "O Dowda Callum",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "pprnC9t5",
+    "playerSlug": "semel-moshe",
+    "playerNameGuess": "Semel Moshe",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "MLIgOo6e",
+    "playerSlug": "szappanos-peter",
+    "playerNameGuess": "Szappanos Peter",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "48uIBvkU",
+    "playerSlug": "szoke-gergo",
+    "playerNameGuess": "Szoke Gergo",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "YaGpYzqM",
+    "playerSlug": "varkonyi-bence",
+    "playerNameGuess": "Varkonyi Bence",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  },
+  {
+    "playerId": "K4u6qn9o",
+    "playerSlug": "vitalyos-viktor",
+    "playerNameGuess": "Vitalyos Viktor",
+    "rank": 197,
+    "goals": 0,
+    "secondaryStat": 0,
+    "appearances": 1
+  }
+]

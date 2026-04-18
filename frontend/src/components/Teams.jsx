@@ -9,6 +9,7 @@ const Teams = ({ token }) => {
     const saved = localStorage.getItem('favoriteTeams');
     return saved ? JSON.parse(saved) : [];
   });
+  const [filter, setFilter] = useState('allTeams');
 
   useEffect(() => {
     fetchTeams();
@@ -47,10 +48,26 @@ const Teams = ({ token }) => {
       {/* Kedvenc csapatok szűrő */}
       <div className="mb-4">
         <div className="btn-group" role="group">
-          <input type="radio" className="btn-check" name="teamFilter" id="allTeams" autoComplete="off" defaultChecked />
+          <input
+            type="radio"
+            className="btn-check"
+            name="teamFilter"
+            id="allTeams"
+            autoComplete="off"
+            checked={filter === 'allTeams'}
+            onChange={() => setFilter('allTeams')}
+          />
           <label className="btn btn-outline-primary" htmlFor="allTeams">Összes csapat</label>
 
-          <input type="radio" className="btn-check" name="teamFilter" id="favorites" autoComplete="off" />
+          <input
+            type="radio"
+            className="btn-check"
+            name="teamFilter"
+            id="favorites"
+            autoComplete="off"
+            checked={filter === 'favorites'}
+            onChange={() => setFilter('favorites')}
+          />
           <label className="btn btn-outline-primary" htmlFor="favorites">
             Kedvenceim ({favorites.length})
           </label>
@@ -60,8 +77,7 @@ const Teams = ({ token }) => {
       <div className="row">
         {teams
           .filter(team => {
-            const filterType = document.querySelector('input[name="teamFilter"]:checked')?.id;
-            if (filterType === 'favorites') {
+            if (filter === 'favorites') {
               return favorites.includes(team._id);
             }
             return true;
@@ -77,7 +93,7 @@ const Teams = ({ token }) => {
                       onClick={() => toggleFavorite(team._id)}
                       title={favorites.includes(team._id) ? 'Eltávolítás a kedvencekből' : 'Hozzáadás a kedvencekhez'}
                     >
-                      {favorites.includes(team._id) ? '★' : '☆'}
+                      {favorites.includes(team._id) ? 'Mentve' : 'Kedvenc'}
                     </button>
                   </div>
                   <p className="card-text">
@@ -87,13 +103,13 @@ const Teams = ({ token }) => {
                   </p>
                   <div className="mt-3">
                     <Link to={`/teams/${team._id}/stats`} className="btn btn-primary btn-sm me-2">
-                      📊 Statisztikák
+                      Statisztikák
                     </Link>
                     <Link to={`/teams/${team._id}/players`} className="btn btn-secondary btn-sm me-2">
-                      👥 Játékosok
+                      Játékosok
                     </Link>
                     <Link to={`/teams/${team._id}/results`} className="btn btn-info btn-sm">
-                      🏆 Eredmények
+                      Eredmények
                     </Link>
                   </div>
                 </div>
