@@ -47,7 +47,7 @@ const Teams = ({ token }) => {
 
       {/* Kedvenc csapatok szűrő */}
       <div className="mb-4">
-        <div className="btn-group" role="group">
+        <div className="btn-group responsive-filter" role="group">
           <input
             type="radio"
             className="btn-check"
@@ -83,7 +83,7 @@ const Teams = ({ token }) => {
             return true;
           })
           .map(team => (
-            <div key={team._id} className="col-md-6 col-lg-4 mb-4">
+            <div key={team._id} className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="card h-100">
                 <div className="card-body">
                   <div className="d-flex justify-content-between align-items-start">
@@ -101,7 +101,7 @@ const Teams = ({ token }) => {
                     <strong>Alapítva:</strong> {team.founded}<br />
                     <strong>Sport:</strong> {team.sport}
                   </p>
-                  <div className="mt-3">
+                  <div className="mt-3 card-actions">
                     <Link to={`/teams/${team._id}/stats`} className="btn btn-primary btn-sm me-2">
                       Statisztikák
                     </Link>

@@ -75,7 +75,7 @@ const Players = ({ token }) => {
 
       {/* Kedvenc játékosok szűrő */}
       <div className="mb-4">
-        <div className="btn-group" role="group">
+        <div className="btn-group responsive-filter" role="group">
           <input
             type="radio"
             className="btn-check"
@@ -111,7 +111,7 @@ const Players = ({ token }) => {
             return true;
           })
           .map(player => (
-            <div key={player._id} className="col-md-6 col-lg-4 mb-4">
+            <div key={player._id} className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="card h-100">
                 <div className="card-body">
                   <div className="d-flex justify-content-between align-items-start">

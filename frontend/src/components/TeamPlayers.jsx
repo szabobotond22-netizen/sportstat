@@ -72,7 +72,7 @@ const TeamPlayers = ({ token }) => {
       <div className="row">
         {players.length > 0 ? (
           players.map(player => (
-            <div key={player._id} className="col-md-6 col-lg-4 mb-4">
+            <div key={player._id} className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="card h-100">
                 <div className="card-body">
                   <h5 className="card-title">

@@ -64,14 +64,14 @@ const Results = ({ token }) => {
 
       <div className="card mb-4">
         <div className="card-body">
-          <div className="d-flex justify-content-between align-items-center mb-3">
+          <div className="d-flex justify-content-between align-items-center mb-3 mobile-stack">
             <h4 className="mb-0">NB1 Tabella (jelenlegi állás)</h4>
             <small className="text-muted">Lejátszott meccsek: {finishedGameCount}</small>
           </div>
 
           {standings.length > 0 ? (
             <div className="table-responsive">
-              <table className="table table-sm align-middle mb-0">
+              <table className="table table-sm align-middle mb-0 standings-table">
                 <thead>
                   <tr>
                     <th>#</th>
@@ -111,7 +111,7 @@ const Results = ({ token }) => {
       </div>
 
       <div className="mb-4">
-        <div className="btn-group" role="group">
+        <div className="btn-group responsive-filter" role="group">
           <input type="radio" className="btn-check" name="resultFilter" id="allResults" autoComplete="off" defaultChecked onChange={() => setFilter('all')} />
           <label className="btn btn-outline-primary" htmlFor="allResults">Összes</label>
 
@@ -129,10 +129,10 @@ const Results = ({ token }) => {
       <div className="row">
         {filteredResults.length > 0 ? (
           filteredResults.map(game => (
-            <div key={game._id} className="col-md-6 col-lg-4 mb-4">
+            <div key={game._id} className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="card h-100">
                 <div className="card-body">
-                  <div className="d-flex justify-content-between align-items-center mb-3">
+                  <div className="d-flex justify-content-between align-items-center mb-3 mobile-stack">
                     <div>{getResultBadge(game)}</div>
                     <small className="text-muted">{new Date(game.date).toLocaleDateString('hu-HU')}</small>
                   </div>

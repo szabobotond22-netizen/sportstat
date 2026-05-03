@@ -55,10 +55,10 @@ const TeamResults = ({ token }) => {
           results.map(game => {
             const isHomeTeam = game.homeTeam?._id === id;
             return (
-              <div key={game._id} className="col-md-6 col-lg-4 mb-4">
+              <div key={game._id} className="col-12 col-md-6 col-lg-4 mb-4">
                 <div className="card h-100">
                   <div className="card-body">
-                    <div className="d-flex justify-content-between align-items-center mb-3">
+                    <div className="d-flex justify-content-between align-items-center mb-3 mobile-stack">
                       <div>{getResultBadge(game, id)}</div>
                       <small className="text-muted">{new Date(game.date).toLocaleDateString('hu-HU')}</small>
                     </div>

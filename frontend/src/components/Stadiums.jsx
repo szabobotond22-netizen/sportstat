@@ -39,7 +39,7 @@ const Stadiums = () => {
       <div className="row">
         {stadiums.length > 0 ? (
           stadiums.map((stadium) => (
-            <div key={stadium._id} className="col-md-6 col-lg-4 mb-4">
+            <div key={stadium._id} className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="card h-100">
                 <div className="card-body">
                   <h5 className="card-title">{stadium.name}</h5>

@@ -42,7 +42,7 @@ const Injuries = () => {
 
   return (
     <div>
-      <div className="d-flex justify-content-between align-items-center mb-4">
+      <div className="d-flex justify-content-between align-items-center mb-4 mobile-stack">
         <h2 className="mb-0">Sérülések</h2>
         <div className="form-check form-switch">
           <input
@@ -61,7 +61,7 @@ const Injuries = () => {
       <div className="row">
         {injuries.length > 0 ? (
           injuries.map((injury) => (
-            <div key={injury._id} className="col-md-6 col-lg-4 mb-4">
+            <div key={injury._id} className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="card h-100">
                 <div className="card-body">
                   <div className="d-flex justify-content-between align-items-start mb-2">

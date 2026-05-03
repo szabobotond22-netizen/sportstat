@@ -41,7 +41,7 @@ const Coaches = () => {
       <div className="row">
         {coaches.length > 0 ? (
           coaches.map((coach) => (
-            <div key={coach._id} className="col-md-6 col-lg-4 mb-4">
+            <div key={coach._id} className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="card h-100">
                 <div className="card-body">
                   <h5 className="card-title">{coach.name}</h5>
